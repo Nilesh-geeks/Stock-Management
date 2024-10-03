@@ -16,7 +16,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,4 +24,27 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.dropcontainer {
+  max-height: 400px; /* Limit the height of the dropdown */
+  overflow-y: auto; /* Allow scrolling if there are too many items */
+  border-radius: 0.5rem; /* Round the corners */
+}
+
+.slug {
+  color: #333; /* Darker text color for product names */
+}
+
+.border-b-2 {
+  border-color: rgba(0, 0, 0, 0.1); /* Lighter border color */
+}
+
+.hover\:bg-purple-50:hover {
+  background-color: rgba(200, 180, 255, 0.2); /* Soft purple hover color */
+}
+
+.quantity {
+  font-weight: bold; /* Bold the quantity text */
+  color: #4a5568; /* Dark gray for better visibility */
 }
